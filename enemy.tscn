@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://7kif6qm0rdk7"]
+
+[ext_resource type="Script" path="res://enemy.gd" id="1_4feuc"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_t7igb"]
+
+[node name="enemy" type="Sprite2D"]
+position = Vector2(306, 125)
+rotation = 2.11078
+scale = Vector2(50, 50)
+texture = SubResource("CanvasTexture_t7igb")
+script = ExtResource("1_4feuc")
